@@ -1,0 +1,51 @@
+.content-wrapper {
+  padding: 24px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  height: 565px;
+  overflow-y: scroll;
+  margin-bottom: 24px;
+}
+.ant-layout {
+  min-height: 100vh;
+}
+.box-content {
+  margin-bottom: 16px;
+  break-inside: avoid;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.box-content .ant-image-img {
+  width: 50%;
+  height: auto;
+}
+.selected-movie-card {
+  margin-bottom: 16px;
+  break-inside: avoid;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.selected-movie-card .ant-image-img {
+  width: auto;
+  height: 50%;
+}
+.selected-movie-card .ant-card-cover {
+  width: 30%;
+  /* height: 50%; */
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 500px;
+  height: 100%;
+}
+
+.poster-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
